@@ -15,5 +15,16 @@ public class MysqlQueries {
 
         String query4 = "Select * From student Where firstname='John'";
 
+        String query5 = "SELECT * FROM student where firstname='John' AND lastname='Smith'";
+
+        String query6 = "SELECT * FROM student where firstname='John' OR lastname='Smith'";
+
+        String query7 = "SELECT * FROM student where firstname LIKE 'J%'";
+
+        String query8 = "SELECT * FROM student where marks BETWEEN 2 AND 5";
+
+        String query9 = "SELECT concat ( firstname,' ',lastname) from student";
+
+
     }
 }
