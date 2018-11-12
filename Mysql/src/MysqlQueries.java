@@ -11,9 +11,9 @@ public class MysqlQueries {
                 "\tINSERT INTO student VALUES(4, 'Sebastian', 'Kowalski', '555555511115', 5);\n" +
                 "\tINSERT INTO student VALUES(5, 'John', 'Kowalski', '55555555', 4)";
 
-        String query3 = "Select * From student";
+        String query3 = "SELECT * FROM student";
 
-        String query4 = "Select * From student Where firstname='John'";
+        String query4 = "SELECT * FROM student Where firstname='John'";
 
         String query5 = "SELECT * FROM student where firstname='John' AND lastname='Smith'";
 
@@ -24,6 +24,10 @@ public class MysqlQueries {
         String query8 = "SELECT * FROM student where marks BETWEEN 2 AND 5";
 
         String query9 = "SELECT concat ( firstname,' ',lastname) from student";
+
+        String query10 = "UPDATE student set firstname='123' where id=2;";
+
+        String query11 = "DELETE FROM student where id=2;";
 
 
     }
