@@ -9,3 +9,5 @@
 7. Use LIKE operator.
 8. Use between operator.
 9. Combine firstname and lastname using concat.
+10. Update a data in a student table.
+11. Delete a data from a student table.
