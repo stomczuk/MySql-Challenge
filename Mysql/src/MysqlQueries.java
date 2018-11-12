@@ -29,6 +29,13 @@ public class MysqlQueries {
 
         String query11 = "DELETE FROM student where id=2;";
 
+        String query12 = "SELECT * FROM students inner join players on students.name = players.name;";
+
+        String query13 = "SELECT * FROM students left outer join players on students.name = players.name;";
+
+        String query14 = "SELECT * FROM students right outer join players on students.name = players.name;";
+
+        String query15 = "SELECT * FROM students cross join players;";
 
     }
 }
