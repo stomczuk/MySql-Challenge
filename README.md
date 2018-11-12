@@ -9,3 +9,9 @@
 7. Use LIKE operator.
 8. Use between operator.
 9. Combine firstname and lastname using concat.
+10. Update a data in a student table.
+11. Delete a data from a student table.
+12. INNER JOIN - returns all the same values from one and the other table.
+13. LEFT OUTER JOIN - returns all values from a left hand side table and the same values from a right hand side table.
+14. RIGHT OUTER JOIN - the same logic like in LEFT OUTER JOIN, but inversely.
+15. CROSS JOIN - joins every value from first table with every value form second table. 
